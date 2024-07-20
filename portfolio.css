@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(35 6 64);
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(67, 14, 117);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(74, 74, 138);
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.first>div {
+    width: 44%;
+}
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.leftsection {
+    font-size: 4rem;
+    margin: 70px 0;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgb(134 71 236);
+}
+
+#element {
+    color: rgb(134 71 236);
+}
+
+.second h1 {
+    font-size: 1.9rem;
+}
+
+.text-grey {
+    color: gray;
+}
+
+.box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+.second .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+ 
+.vertical-text{
+   position: relative;
+   top: 75px;
+   width: 150px;
+   font-size: 14px;
+}
+.vertical2{
+   position: relative;
+   top: 86px;
+   width: 150px;
+   color:gray;
+   font-size:9px ;
+
+}
+footer{
+ 
+    background-color:  rgb(109 77 162);
+    height: 233px;
+     
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 235px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 23px 122px;
+}
